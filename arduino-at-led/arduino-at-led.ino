@@ -126,7 +126,7 @@ void data_server(){
  //responder y cerrar la conexión para que el navegador no se quede cargando 
  
     String html = ""; // página web a enviar
-    if (state==1) html += "<h1>LED_13 = encendido!</h1>";
+    if (state==1) html += "<h1>LED_13 = encendido!</h1> <h2>Probando un h2</h2>";
     else {html += "<h1>LED_13 = apagado!</h1>";}
       
     String cmd_Webpage = "AT+CIPSEND="; // comando para enviar página web
