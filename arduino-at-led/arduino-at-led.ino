@@ -120,11 +120,16 @@ void data_server(){
     
     while(ESP01.available())  {
         char c = ESP01.read();
-        Serial.print(c);
+        Serial.print(c)
       }
  
  //responder y cerrar la conexión para que el navegador no se quede cargando 
- 
+
+ /*Lo que queremos en nuestra página web:
+  * 1 boton que sea "prender"
+  * 1 boton que sea "apagar"
+  * 1 aviso que diga cual es el estado actual (o un boton que cambia de color segun el estado)
+  */
     String html = ""; // página web a enviar
     if (state==1) html += "<h1>LED_13 = encendido!</h1><h2>Probando un h2</h2><button type="button">Prender LED</button>";
     else {html += "<h1>LED_13 = apagado!</h1>";}
