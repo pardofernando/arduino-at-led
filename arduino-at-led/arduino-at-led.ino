@@ -131,6 +131,8 @@ void data_server(){
   * 1 aviso que diga cual es el estado actual (o un boton que cambia de color segun el estado)
   */
     String html = ""; // página web a enviar
+    html += "<h1>Esto es una prueba: linea 1 de html</h1>";
+    html += "<h1>Esto es una prueba: linea 2 de html</h1>";
     if (state==1) html += "<h1>LED_13 = encendido!</h1><h2>Probando un h2</h2><button type="button">Prender LED</button>";
     else {html += "<h1>LED_13 = apagado!</h1>";}
       
