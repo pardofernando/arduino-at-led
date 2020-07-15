@@ -11,8 +11,8 @@
 */
  
 #include <SoftwareSerial.h>
-const int Rx = 3;   // Pin3 -> RX, conectar con Tx del modulo
-const int Tx = 2;   // Pin2 -> TX, conectar con Rx del modulo
+const int Rx = 3;   // Pin3 -> RX, conectar con Tx del modulo. Asigna al pin 3 el nombre Rx (recepcion)
+const int Tx = 2;   // Pin2 -> TX, conectar con Rx del modulo. Asigna al pin 2 el nombre Tx (transmision)
 #define SSID  "Pardos"    // Nombre de la red
 #define PASS  "53707246"  // Password
 #define PORT_SERVER  "80"     // Puerto
@@ -21,12 +21,12 @@ SoftwareSerial ESP01(Rx,Tx); // Establece comunicación serie en pines Rx y Tx
  
 void setup() {
  
-    Serial.begin(9600);  // monitor serial del arduino
-    ESP01.begin(9600);   // baud rate del ESP8266
+    Serial.begin(9600);  // monitor serial del arduino (velocidad de la comunicacion)
+    ESP01.begin(9600);   // baud rate del ESP8266 (velocidad de la comunicacion)
  
-    Serial.println("lED del pin 13 de Arduino OFF");
-    pinMode(13,OUTPUT);
-    digitalWrite(13,LOW); 
+    Serial.println("LED del pin 13 de Arduino OFF");
+    pinMode(13,OUTPUT); // ajusta pin 13 como salida
+    digitalWrite(13,LOW); //pone el pin 13 en cero - apagado
  
     init_mod();         // Configura el modulo
 }
@@ -43,8 +43,8 @@ void loop() {
 */ 
   if(ESP01.available()) {    // revisar si hay mensaje del ESP01
  
-      char c = ESP01.read();
-      Serial.print(c);      // escribe lo que recibe del modulo
+      char c = ESP01.read(); // guarda en la variable c el caracter que esta en el bufer del modulo ESP
+      Serial.print(c);      // escribe en el monitor serial lo que recibe del modulo ESP
    
       if(ESP01.find("+IPD,"))   data_server();  // revisar si el servidor recibio datos
   }
@@ -79,19 +79,19 @@ void init_mod(){
     Serial.println("comprueba la IP asignada");
     sendData("AT+CIPSTA?\r\n",1000);                  //Añadido para ver IP asgnada     
     Serial.println("_________________________");
-    /*hokla*/
     /*Serial.println("obtener direccion IP"); 
-    sendData("AT+CIFSR\r\n",2000);                    //suprimido para evitar IP al hazar   
+    sendData("AT+CIFSR\r\n",2000);                    //suprimido para evitar IP al azar   
     Serial.println("_________________________");*/
-    Serial.println("configuramos el servidor en modo multiconexion");
+    Serial.println("configuramos el servidor en modo multiconexion"); //multiconexion significa que varios clientes se puede conectar
     sendData("AT+CIPMUX=1\r\n",1000);
     Serial.println("_________________________");
     Serial.println("servidor 1 en el puerto 80"); 
-    sendData("AT+CIPSERVER=1,"PORT_SERVER"\r\n",1000);
+    sendData("AT+CIPSERVER=1,"PORT_SERVER"\r\n",1000); // se crea un servidor en el modulo ESP
     Serial.println("=========================");
 }
 //========================================================
- 
+
+ /* marcador :leimos hasta aca en 15 de julio */
  
 void sendData(String comando, const int timeout)  {
 // Envia comando al ESP01 y verifica la respuesta dentro del tiempo timeout
@@ -120,7 +120,7 @@ void data_server(){
     
     while(ESP01.available())  {
         char c = ESP01.read();
-        Serial.print(c)
+        Serial.print(c);
       }
  
  //responder y cerrar la conexión para que el navegador no se quede cargando 
@@ -133,7 +133,7 @@ void data_server(){
     String html = ""; // página web a enviar
     html += "<h1>Esto es una prueba: linea 1 de html</h1>";
     html += "<h1>Esto es una prueba: linea 2 de html</h1>";
-    if (state==1) html += "<h1>LED_13 = encendido!</h1><h2>Probando un h2</h2><button type="button">Prender LED</button>";
+    if (state==1) html += "<h1>LED_13 = encendido!</h1><h2>Probando un h2</h2><button onClick=location.href='./?LAMPARA=ON\'>Prender LED</button>";
     else {html += "<h1>LED_13 = apagado!</h1>";}
       
     String cmd_Webpage = "AT+CIPSEND="; // comando para enviar página web
