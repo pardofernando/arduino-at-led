@@ -91,15 +91,15 @@ void init_mod(){
 }
 //========================================================
 
- /* marcador :leimos hasta aca en 15 de julio */
+
  
 void sendData(String comando, const int timeout)  {
 // Envia comando al ESP01 y verifica la respuesta dentro del tiempo timeout
  
  long int time = millis(); // medir el tiempo actual para verificar timeout
- ESP01.print(comando);     // enviar el comando al ESP01
+ ESP01.print(comando);     // enviar el comando al ESP01 (comando = primer parametro de la funcion)
  
-  while( (time+timeout) > millis()) { //mientras no haya timeout
+  while( (time+timeout) > millis()) { //mientras no haya timeout (timeout = 2o parametro del la funcion)
  
       while(ESP01.available()) {// mientras haya datos por leer, lee los datos disponibles
         char c = ESP01.read();  // leer el siguiente caracter
@@ -113,7 +113,8 @@ void sendData(String comando, const int timeout)  {
 void data_server(){
  
     delay(2000);   // espera que lleguen los datos hacia el buffer AUMENTADO DE 1000 A 2000
-    int conexionID = ESP01.read()-48; // obtener el ID de la conexión para poder responder
+    int conexionID = ESP01.read()-48; /* obtener el ID de la conexión para poder responder y encontrar quien es el cliente
+                                        (el -48 tiene que ver con el codigo ascii, alli 48 es 0)*/
     ESP01.find("led=");               // buscar el texto "led="
     int state = (ESP01.read()-48);    // Obtener el estado del pin a mostrar
     digitalWrite(13, state);          // Cambia estado del pin
@@ -133,7 +134,8 @@ void data_server(){
     String html = ""; // página web a enviar
     html += "<h1>Esto es una prueba: linea 1 de html</h1>";
     html += "<h1>Esto es una prueba: linea 2 de html</h1>";
-    if (state==1) html += "<h1>LED_13 = encendido!</h1><h2>Probando un h2</h2><button onClick=location.href='./?LAMPARA=ON\'>Prender LED</button>";
+    html += "<button onClick=location.href='./led=1\'>Prender LED</button><button onClick=location.href='./led=0\'>Apagar LED</button>";
+    if (state==1) html += "<h1>LED_13 = encendido!</h1>";
     else {html += "<h1>LED_13 = apagado!</h1>";}
       
     String cmd_Webpage = "AT+CIPSEND="; // comando para enviar página web
