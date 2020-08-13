@@ -113,8 +113,8 @@ void sendData(String comando, const int timeout)  {
 void data_server(){
  
     delay(2000);   // espera que lleguen los datos hacia el buffer AUMENTADO DE 1000 A 2000
-    int conexionID = ESP01.read()-48; /* obtener el ID de la conexión para poder responder y encontrar quien es el cliente
-                                        (el -48 tiene que ver con el codigo ascii, alli 48 es 0)*/
+    int conexionID = ESP01.read()-48; /* obtener el ID de la conexión para poder responder y encontrar quien
+                                      es el cliente (el -48 tiene que ver con el codigo ascii, alli 48 es 0)*/
     ESP01.find("led=");               // buscar el texto "led="
     int state = (ESP01.read()-48);    // Obtener el estado del pin a mostrar
     digitalWrite(13, state);          // Cambia estado del pin
@@ -132,11 +132,17 @@ void data_server(){
   * 1 aviso que diga cual es el estado actual (o un boton que cambia de color segun el estado)
   */
     String html = ""; // página web a enviar
-    html += "<h1>Esto es una prueba: linea 1 de html</h1>";
-    html += "<h1>Esto es una prueba: linea 2 de html</h1>";
-    html += "<button onClick=location.href='./led=1\'>Prender LED</button><button onClick=location.href='./led=0\'>Apagar LED</button>";
-    if (state==1) html += "<h1>LED_13 = encendido!</h1>";
-    else {html += "<h1>LED_13 = apagado!</h1>";}
+    html += "<head><title>HAGALO USTED</title></head>";
+    html += "<h1>Bienvenido a la pagina de HAGALO USTED</h1>";
+    html += "<button onClick=location.href='./led=1\'>Prender LED 13</button><button onClick=location.href='./led=0\'>Apagar LED 13</button><button style='background-color:green;'>bombillo</button>";
+    if (state==1) {
+      html += "<h1>LED_13 = encendido!</h1>";
+      //estadoled_1 (); // funcion de prueba hecha por fer y lala
+    }
+    else {
+      html += "<h1>LED_13 = apagado!</h1>";
+      //estadoled_0 (); // // funcion de prueba hecha por fer y lala
+    }
       
     String cmd_Webpage = "AT+CIPSEND="; // comando para enviar página web
     cmd_Webpage += conexionID;
@@ -151,4 +157,13 @@ void data_server(){
     cmd_close += "\r\n";
     sendData(cmd_close,3000);
  
+}
+//lala y fer crean sus propias funciones
+
+String estadoled_1 (){
+  Serial.println("el led se encuentra encendido");
+}
+
+String estadoled_0 (){
+  Serial.println("el led se encuentra apagado");
 }
