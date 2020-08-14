@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-14T18:40:55.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="E-Ep5NXf2fNtg1Qv82lq" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-14T18:44:26.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="nkO--F530dos_4kxmrj0" version="13.6.2" type="github">
   <diagram id="J57KH9B6RZYCS6bBLZZx" name="Page-1">
     <mxGraphModel dx="862" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -454,7 +454,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="se crea la variable String &quot;cmd_Webpage&quot; y se le incorpora &quot;&quot;AT+CIPSEND=&quot;&quot;" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-10">
+        <UserObject label="&lt;p&gt;se crea la variable String &quot;cmd_Webpage&quot; y se le incorpora &quot;&quot;AT+CIPSEND=&quot;&quot;&lt;/p&gt;" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-10">
           <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="626" y="1440" width="165" height="45" as="geometry" />
           </mxCell>
@@ -475,6 +475,11 @@
         <UserObject label="se consulta y escribe a continuación la cantidad de caracteres del String" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-16">
           <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="624" y="1600" width="165" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="se agregan los caracteres &quot;r&quot; y &quot;n&quot; para devolver el cursor y nadelantar una linea" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-17">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+            <mxGeometry x="624" y="1670" width="165" height="50" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
