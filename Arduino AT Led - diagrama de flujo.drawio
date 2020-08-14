@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-14T19:31:15.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="FTf-5ltfVnReTksbgS4n" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-14T20:29:02.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="c8vcdjiDKoaXtQIXHi8E" version="13.6.2" type="github">
   <diagram id="J57KH9B6RZYCS6bBLZZx" name="Page-1">
     <mxGraphModel dx="862" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="lFMXjnisn3vUiM2r7Eg6-33" value="con esta operación se averigua&lt;br&gt;si la orden desde el navegafdor&lt;br&gt;es prender o apagar el LED" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;fontSize=11;fontColor=#333333;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;html=1;" parent="1" vertex="1" zOrder="74.13216067034955">
-          <mxGeometry x="820" y="360" width="178" height="57" as="geometry" />
+          <mxGeometry x="827" y="360" width="178" height="57" as="geometry" />
         </mxCell>
         <mxCell id="lFMXjnisn3vUiM2r7Eg6-34" value="" style="shape=partialRectangle;right=0;fillColor=none;fontSize=11;fontColor=#333333;align=center;strokeColor=#333333;" parent="lFMXjnisn3vUiM2r7Eg6-33" vertex="1">
           <mxGeometry width="8" height="57" relative="1" as="geometry" />
@@ -354,17 +354,20 @@
             <mxGeometry x="626" y="1002" width="165" height="71" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="lFMXjnisn3vUiM2r7Eg6-57" value="&lt;div style=&quot;color:#333333;text-align: center;&quot;&gt;Cuando se pincha en el boton &#39;enceder LED&#39; la URL cambia  anadiendole despues del &#39;/&#39; led=1 &#xa;&lt;/div&gt;&lt;div style=&quot;color:#333333;text-align: center;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;color:#333333;text-align: center;&quot;&gt;Cuando se pincha en el boton &#39;apagar LED&#39; la URL cambia  anadiendole despues del &#39;/&#39; led=0&lt;/div&gt;" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;overflow=width;html=1;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;" parent="1" vertex="1" zOrder="97.13216067034955">
-          <mxGeometry y="1100" width="264" height="84" as="geometry" />
+        <mxCell id="lFMXjnisn3vUiM2r7Eg6-57" value="&lt;div style=&quot;color: #333333 ; text-align: center&quot;&gt;Cuando se pincha en el boton &#39;enceder LED&#39; la URL cambia  anadiendole despues del &#39;/&#39; led=1&lt;/div&gt;&lt;div style=&quot;color: #333333 ; text-align: center&quot;&gt;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: #333333 ; text-align: center&quot;&gt;&lt;/div&gt;&lt;div style=&quot;color: #333333 ; text-align: center&quot;&gt;Cuando se pincha en el boton &#39;apagar LED&#39; la URL cambia  anadiendole despues del &#39;/&#39; led=0&lt;/div&gt;" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;overflow=width;html=1;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1" zOrder="97.13216067034955">
+          <mxGeometry x="827" y="1100" width="264" height="130" as="geometry" />
         </mxCell>
         <mxCell id="lFMXjnisn3vUiM2r7Eg6-58" value="" style="shape=partialRectangle;right=0;fillColor=none;overflow=width;html=1;strokeColor=#333333;" parent="lFMXjnisn3vUiM2r7Eg6-57" vertex="1">
           <mxGeometry width="8" height="84" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lFMXjnisn3vUiM2r7Eg6-59" value="en esta variable se almacenaran strings de codigo html que crearan la pagina web" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;fontSize=11;fontColor=#333333;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;html=1;" parent="1" vertex="1" zOrder="98.13216067034955">
-          <mxGeometry y="742" width="216" height="72" as="geometry" />
+        <mxCell id="lFMXjnisn3vUiM2r7Eg6-59" value="en esta variable se almacenaran strings de codigo html que crearan la pagina web" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;fontSize=11;fontColor=#333333;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;html=1;whiteSpace=wrap;" parent="1" vertex="1" zOrder="98.13216067034955">
+          <mxGeometry x="827" y="749" width="250" height="72" as="geometry" />
         </mxCell>
         <mxCell id="lFMXjnisn3vUiM2r7Eg6-60" value="" style="shape=partialRectangle;right=0;fillColor=none;fontSize=11;fontColor=#333333;align=center;strokeColor=#333333;" parent="lFMXjnisn3vUiM2r7Eg6-59" vertex="1">
           <mxGeometry width="8" height="72" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="lFMXjnisn3vUiM2r7Eg6-61" target="lFMXjnisn3vUiM2r7Eg6-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;color:#333333;text-align: center;&quot;&gt;variable &lt;/div&gt;&lt;span style=&quot;color:#ff8839;text-align: center;&quot;&gt;state&lt;/span&gt;&lt;span style=&quot;color:#333333;text-align: center;&quot;&gt; ==1 ?&lt;/span&gt;" lucidchartObjectId="qgemiyTsQh93" id="lFMXjnisn3vUiM2r7Eg6-61">
           <mxCell style="html=1;whiteSpace=wrap;rhombus;overflow=width;html=1;spacing=3;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;strokeWidth=3;" parent="1" vertex="1" zOrder="99.13216067034955">
@@ -454,49 +457,54 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-10" target="vPxWnhAwNGNxRPmEON6K-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;p&gt;se crea la variable String &quot;cmd_Webpage&quot; y se le incorpora &quot;&quot;AT+CIPSEND=&quot;&quot;&lt;/p&gt;" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-10">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;strokeColor=none;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="626" y="1440" width="165" height="45" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="vPxWnhAwNGNxRPmEON6K-11" value="&lt;p&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&quot;AT+CIPSEND=&quot; es un comado AT para la ESP para enviar la página web&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="815.25" y="1440" width="187.5" height="47.5" as="geometry" />
+          <mxGeometry x="827" y="1440" width="187.5" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-12" target="vPxWnhAwNGNxRPmEON6K-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;p&gt;se agrega el Nro de identificación del que se conectó&lt;/p&gt;" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-12">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;strokeColor=none;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="626" y="1510" width="165" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-13" target="vPxWnhAwNGNxRPmEON6K-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="se agrega una coma" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-13">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;strokeColor=none;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="625.5" y="1560" width="165" height="20" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-16" target="vPxWnhAwNGNxRPmEON6K-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="se consulta y escribe a continuación la cantidad de caracteres del String" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-16">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;strokeColor=none;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="624" y="1600" width="165" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="se agregan los caracteres &quot;r&quot; y &quot;n&quot; para devolver el cursor y nadelantar una linea" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-17">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=#B09500;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="1">
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-17" target="vPxWnhAwNGNxRPmEON6K-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="se agregan los caracteres &quot;r&quot; y &quot;n&quot; para devolver el cursor y adelantar una linea" lucidchartObjectId="DBemWpSBfR6p" id="vPxWnhAwNGNxRPmEON6K-17">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#e3c800;strokeWidth=0;strokeColor=none;" vertex="1" zOrder="102.13216067034955" parent="1">
             <mxGeometry x="624" y="1670" width="165" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="se ejecuta la función &quot;sendData&quot;&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22Ejecutar%20el%20Data%20Server%22%20lucidchartObjectId%3D%22SfGlQL4ZKTYL%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22html%3D1%3BwhiteSpace%3Dwrap%3Bshape%3Dprocess%3BfontSize%3D11%3BfontColor%3D%23333333%3Balign%3Dcenter%3Bspacing%3D3%3BstrokeColor%3D%23333333%3BstrokeOpacity%3D100%3BfillOpacity%3D100%3Brounded%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D9.6%3BfillColor%3D%23ffeca9%3B%22%20vertex%3D%221%22%20zOrder%3D%2263.13216067034955%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22229%22%20y%3D%22670%22%20width%3D%22132%22%20height%3D%2236%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" lucidchartObjectId="SfGlQL4ZKTYL" id="vPxWnhAwNGNxRPmEON6K-18">
-          <mxCell style="html=1;whiteSpace=wrap;shape=process;fontSize=11;fontColor=#333333;align=center;spacing=3;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffeca9;" vertex="1" zOrder="63.13216067034955" parent="1">
-            <mxGeometry x="642.5" y="1740" width="132" height="36" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="vPxWnhAwNGNxRPmEON6K-19" value="aqui se envía el contenido del String &quot;cmd_Webpage&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1740" width="170" height="30" as="geometry" />
+          <mxGeometry x="827" y="1760" width="170" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="se ejecuta la función &quot;sendData&quot;l&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22Ejecutar%20el%20Data%20Server%22%20lucidchartObjectId%3D%22SfGlQL4ZKTYL%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22html%3D1%3BwhiteSpace%3Dwrap%3Bshape%3Dprocess%3BfontSize%3D11%3BfontColor%3D%23333333%3Balign%3Dcenter%3Bspacing%3D3%3BstrokeColor%3D%23333333%3BstrokeOpacity%3D100%3BfillOpacity%3D100%3Brounded%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D9.6%3BfillColor%3D%23ffeca9%3B%22%20vertex%3D%221%22%20zOrder%3D%2263.13216067034955%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22229%22%20y%3D%22670%22%20width%3D%22132%22%20height%3D%2236%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphMo&lt;/span&gt;" lucidchartObjectId="SfGlQL4ZKTYL" id="vPxWnhAwNGNxRPmEON6K-21">
-          <mxCell style="html=1;whiteSpace=wrap;shape=process;fontSize=11;fontColor=#333333;align=center;spacing=3;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffeca9;" vertex="1" zOrder="63.13216067034955" parent="1">
-            <mxGeometry x="640.5" y="1800" width="132" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="vPxWnhAwNGNxRPmEON6K-22" value="aqui se envía el contenido del String &quot;html&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="791" y="1800" width="170" height="30" as="geometry" />
+          <mxGeometry x="837" y="1850" width="170" height="30" as="geometry" />
         </mxCell>
         <UserObject label="Start" lucidchartObjectId="ZnIljQx2n8T9" id="vPxWnhAwNGNxRPmEON6K-24">
           <mxCell style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=11;fontColor=#ffffff;fontStyle=2;spacing=3;strokeOpacity=0;fillOpacity=100;fillColor=#ff741d;" vertex="1" zOrder="69.13216067034955" parent="1">
@@ -513,6 +521,24 @@
         </mxCell>
         <mxCell id="vPxWnhAwNGNxRPmEON6K-28" value="se usa para enviar comandos al ESP y consta de un &quot;comando&quot; y un tiempo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1210" y="35" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="vPxWnhAwNGNxRPmEON6K-35" target="vPxWnhAwNGNxRPmEON6K-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-35" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Se ejecuta la funcion &#39;sendData&#39; con los parametros (cmd_Webpage, 1000)&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1740" width="172" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-36" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Se ejecuta la funcion &#39;sendData&#39; con los parametros (html, 1000)&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1830" width="172" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-37" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#FFE599;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1740" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-38" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#FFE599;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1830" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vPxWnhAwNGNxRPmEON6K-40" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#FFE599;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1440" width="20" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
