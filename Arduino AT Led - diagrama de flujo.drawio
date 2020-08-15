@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-15T19:37:00.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="qWjC2jNhgvMOju6EFK4F" version="13.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-15T19:37:56.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="tyJiXA0O0OxSf3b6TkMv" version="13.6.2" type="github" pages="3">
   <diagram id="J57KH9B6RZYCS6bBLZZx" name="Page-1">
     <mxGraphModel dx="1127" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -839,7 +839,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="tnh9P-yPczUkYGDK0phM-6" value="con esta operación se averigua&lt;br&gt;si la orden desde el navegafdor&lt;br&gt;es prender o apagar el LED" style="group;spacingLeft=8;align=left;spacing=0;strokeColor=none;fontSize=11;fontColor=#333333;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#ffffff;verticalAlign=middle;html=1;" vertex="1" zOrder="74.13216067034955" parent="HaMQAaqq_N-yd5tdoKsN-1">
-          <mxGeometry x="282.5" y="-790" width="178" height="57" as="geometry" />
+          <mxGeometry x="282.5" y="-813" width="178" height="57" as="geometry" />
         </mxCell>
         <mxCell id="tnh9P-yPczUkYGDK0phM-7" value="" style="shape=partialRectangle;right=0;fillColor=none;fontSize=11;fontColor=#333333;align=center;strokeColor=#333333;" vertex="1" parent="tnh9P-yPczUkYGDK0phM-6">
           <mxGeometry width="8" height="57" relative="1" as="geometry">
