@@ -131,26 +131,31 @@ void data_server(){
   * 1 boton que sea "apagar"
   * 1 aviso que diga cual es el estado actual (o un boton que cambia de color segun el estado)
   */
-    String html = ""; // página web a enviar
-    html += "<head><title>HAGALO USTED</title></head>";
-    html += "<h1>Bienvenido a la pagina de HAGALO USTED</h1>";
-    html += "<button onClick=location.href='./led=1\'>Prender LED 13</button><button onClick=location.href='./led=0\'>Apagar LED 13</button><button style='background-color:green;'>bombillo</button>";
+    // String paginaweb = ""; //(codigo original) página web a enviar 
+    String paginaweb = "<!doctype html><html><head></head><body>";//(cogigo de Bitwise Ar)crea cadena pagina con etiquetas HTML
+    //paginaweb += "<head><title>HAGALO USTED</title></head>";
+    paginaweb += "<h1>Bienvenido a la pagina de HAGALO USTED</h1>";
+    paginaweb += "<button onClick=location.href='./led=1\'>Prender LED 13</button>";
+    paginaweb += "<button onClick=location.href='./led=0\'>Apagar LED 13</button>";
+    //paginaweb += "<button style='color:green;'>bombillo</button>";
     if (state==1) {
-      html += "<h1>LED_13 = encendido!</h1>";
+      paginaweb += "<h1>LED_13 = encendido!</h1></body></html>";
+      paginaweb += "<button>ENCENDIDO!</button>";
       //estadoled_1 (); // funcion de prueba hecha por fer y lala
     }
     else {
-      html += "<h1>LED_13 = apagado!</h1>";
+      paginaweb += "<h1>LED_13 = apagado!</h1></body></html>";
+      paginaweb += "<button>APAGADO!</button>";
       //estadoled_0 (); // // funcion de prueba hecha por fer y lala
     }
       
     String cmd_Webpage = "AT+CIPSEND="; // comando para enviar página web
     cmd_Webpage += conexionID;
     cmd_Webpage += ",";
-    cmd_Webpage += html.length();
+    cmd_Webpage += paginaweb.length();
     cmd_Webpage += "\r\n";
     sendData(cmd_Webpage,1000);
-    sendData(html,1000);
+    sendData(paginaweb,1000);
    
     String cmd_close = "AT+CIPCLOSE=";  // comando para terminar conexión
     cmd_close += conexionID;
