@@ -137,15 +137,18 @@ void data_server(){
     paginaweb += "<h1>Bienvenido a la pagina de HAGALO USTED</h1>";
     paginaweb += "<button onClick=location.href='./led=1\'>Prender LED 13</button>";
     paginaweb += "<button onClick=location.href='./led=0\'>Apagar LED 13</button>";
+    paginaweb += "<h2>Estado actual del LED:</h2>";
     //paginaweb += "<button style='color:green;'>bombillo</button>";
     if (state==1) {
-      paginaweb += "<h1>LED_13 = encendido!</h1></body></html>";
-      paginaweb += "<button>ENCENDIDO!</button>";
+     // paginaweb += "<h1>LED_13 = encendido!</h1></body></html>";
+     //paginaweb += "<h1>LED_13 = encendido!</h1>";
+      paginaweb += "<button>ENCENDIDO</button></body></html>";
       //estadoled_1 (); // funcion de prueba hecha por fer y lala
     }
     else {
-      paginaweb += "<h1>LED_13 = apagado!</h1></body></html>";
-      paginaweb += "<button>APAGADO!</button>";
+      //paginaweb += "<h1>LED_13 = apagado!</h1></body></html>";
+      //paginaweb += "<h1>LED_13 = apagado!";
+      paginaweb += "<button>APAGADO</button></body></html>";
       //estadoled_0 (); // // funcion de prueba hecha por fer y lala
     }
       
