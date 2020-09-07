@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T17:04:11.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="5HUdFtEWCLK2gyLRy9Jy" version="13.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-07T17:37:58.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="7bJ5x1WU6FwChdbXkOI3" version="13.6.6" type="github" pages="4">
   <diagram id="J57KH9B6RZYCS6bBLZZx" name="Page-1">
     <mxGraphModel dx="996" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -310,7 +310,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GH1haCNf4SAXHt_f2ADE" name="Page-3">
-    <mxGraphModel dx="474" dy="1459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1423" dy="2039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HaMQAaqq_N-yd5tdoKsN-0" />
         <mxCell id="HaMQAaqq_N-yd5tdoKsN-1" parent="HaMQAaqq_N-yd5tdoKsN-0" />
@@ -469,12 +469,12 @@
           </mxCell>
         </UserObject>
         <UserObject label="se agrega a la variable html la leyenda encabezado &quot;HAGALO USTED&quot;" lucidchartObjectId="r_JlF2mHvgSZ" id="tnh9P-yPczUkYGDK0phM-27">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="92.13216067034955">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="92.13216067034955">
             <mxGeometry x="40" y="-346" width="165" height="58" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="también se agrega la leyenda &quot;Biénvenido a la página de HAGALO USTED&quot;" lucidchartObjectId="NfKl-Arav8Nf" id="tnh9P-yPczUkYGDK0phM-28">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="94.13216067034955">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="94.13216067034955">
             <mxGeometry x="40" y="-263" width="165" height="58" as="geometry" />
           </mxCell>
         </UserObject>
@@ -483,7 +483,7 @@
             <mxPoint x="121.75" y="-96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;color:#ffffff;text-align: center;&quot;&gt;se agrega a la variable html  2 botones en la pagina web:&#xa;&lt;/div&gt;&lt;div style=&quot;color:#ffffff;text-align: center;&quot;&gt;Encender LED (led=1)&#xa;&lt;/div&gt;&lt;div style=&quot;color:#ffffff;text-align: center;&quot;&gt;Apagar LED (led=0) &lt;/div&gt;" lucidchartObjectId="80dmR9_.lWsI" id="tnh9P-yPczUkYGDK0phM-29">
+        <UserObject label="&lt;div style=&quot;text-align: center;&quot;&gt;se agrega a la variable html  2 botones en la pagina web:&#xa;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Encender LED (led=1)&#xa;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Apagar LED (led=0) &lt;/div&gt;" lucidchartObjectId="80dmR9_.lWsI" id="tnh9P-yPczUkYGDK0phM-29">
           <mxCell style="html=1;whiteSpace=wrap;;overflow=width;html=1;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="96.13216067034955">
             <mxGeometry x="40" y="-181" width="165" height="71" as="geometry" />
           </mxCell>
@@ -540,7 +540,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="se agrega a la variable html &#39;Led 13 =  apagado&#39;" lucidchartObjectId="FGemKyU77KLh" id="tnh9P-yPczUkYGDK0phM-43">
-          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;fontColor=#ffffff;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="104.13216067034955">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1" zOrder="104.13216067034955">
             <mxGeometry x="598" y="-938" width="165" height="45" as="geometry" />
           </mxCell>
         </UserObject>
@@ -684,6 +684,16 @@
         <mxCell id="tnh9P-yPczUkYGDK0phM-73" value="aqui se envía el contenido del String &quot;cmd_close&quot; para cerrar la conexion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=3;fontSize=11;" parent="HaMQAaqq_N-yd5tdoKsN-1" vertex="1">
           <mxGeometry x="631" y="-86" width="170" height="30" as="geometry" />
         </mxCell>
+        <UserObject label="se agrega a la variable html &#39;Led 13 =  encendido&#39;" lucidchartObjectId="DBemWpSBfR6p" id="QRZ3jGSGm58HtfU7mgtI-0">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" vertex="1" zOrder="102.13216067034955" parent="HaMQAaqq_N-yd5tdoKsN-1">
+            <mxGeometry x="465" y="-874" width="165" height="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="se crea la variable html " lucidchartObjectId="_8JliMPBmOBt" id="QRZ3jGSGm58HtfU7mgtI-1">
+          <mxCell style="html=1;whiteSpace=wrap;;fontSize=11;align=center;spacing=3;strokeColor=none;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9.6;fillColor=#3aa6dd;strokeWidth=0;" vertex="1" zOrder="91.13216067034955" parent="HaMQAaqq_N-yd5tdoKsN-1">
+            <mxGeometry x="41" y="-434" width="165" height="58" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
