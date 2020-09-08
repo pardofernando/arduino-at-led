@@ -18,7 +18,7 @@ const int Tx = 2;   // Pin2 -> TX, conectar con Rx del modulo. Asigna al pin 2 e
 #define PORT_SERVER  "80"     // Puerto
 SoftwareSerial ESP01(Rx,Tx); // Establece comunicación serie en pines Rx y Tx
 
-boolean estado_led_13=13;
+boolean led_13=13;
  
  
 void setup() {
