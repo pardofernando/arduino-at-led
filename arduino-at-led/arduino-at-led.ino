@@ -17,6 +17,8 @@ const int Tx = 2;   // Pin2 -> TX, conectar con Rx del modulo. Asigna al pin 2 e
 #define PASS  "53707246"  // Password
 #define PORT_SERVER  "80"     // Puerto
 SoftwareSerial ESP01(Rx,Tx); // Establece comunicación serie en pines Rx y Tx
+
+boolean estado_led_13=13;
  
  
 void setup() {
@@ -27,7 +29,7 @@ void setup() {
     Serial.println("LED del pin 13 de Arduino OFF");
     pinMode(13,OUTPUT); // ajusta pin 13 como salida
     digitalWrite(13,LOW); //pone el pin 13 en cero - apagado
- 
+    
     init_mod();         // Configura el modulo
 }
 //========================================================
@@ -41,6 +43,7 @@ void loop() {
     ESP01.print(c);
   }
 */ 
+ 
   if(ESP01.available()) {    // revisar si hay mensaje del ESP01
  
       char c = ESP01.read(); // guarda en la variable c el caracter que esta en el bufer del modulo ESP
